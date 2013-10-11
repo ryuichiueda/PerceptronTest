@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JavaProfile_1="http:///_aZXakH6MEdmbwasWWc4yvw.profile.uml2" xmlns:Omondo_1="http:///_zrN_0SUoEdmNXYQzyImvfA.profile.uml2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xsi:schemaLocation="http:///_aZXakH6MEdmbwasWWc4yvw.profile.uml2 platform:/plugin/com.omondo.uml.core/profiles/Java.profile.uml#_aZhLlH6MEdmbwasWWc4yvw http:///_zrN_0SUoEdmNXYQzyImvfA.profile.uml2 platform:/plugin/com.omondo.uml.core/profiles/Omondo.profile.uml#_zrN_1iUoEdmNXYQzyImvfA">
+  <uml:Class xmi:id="_EKl8EKiREd27rM7hhsVMTA" name="DualForm" clientDependency="_ES_DEKiREd27rM7hhsVMTA _ETXdkKiREd27rM7hhsVMTA">
+    <ownedAttribute xmi:id="_EL91EKiREd27rM7hhsVMTA" name="_alpha" visibility="private" type="_EQyqsKiREd27rM7hhsVMTA">
+      <association href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_ETlgAKiREd27rM7hhsVMTA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_EQzRwKiREd27rM7hhsVMTA" name="_b" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_EQ1G8KiREd27rM7hhsVMTA" name="addAlpha" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EQ2VEKiREd27rM7hhsVMTA" name="getBias" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EQ28IKiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EQ3jMKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ERDwcKiREd27rM7hhsVMTA" name="incrementAlpha" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EREXgKiREd27rM7hhsVMTA" name="index">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EREXgaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ERE-kKiREd27rM7hhsVMTA" name="getNumOfAlpha" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ERFloKiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ERFloaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ERFloqiREd27rM7hhsVMTA" name="getAlpha" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ERGMsKiREd27rM7hhsVMTA" name="index">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ERGzwKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_ERGzwaiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ERHa0KiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ERHa0aiREd27rM7hhsVMTA" name="setBias" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ERIB4KiREd27rM7hhsVMTA" name="b">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ERIB4aiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ERIo8KiREd27rM7hhsVMTA" name="setAlpha" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ERJQAKiREd27rM7hhsVMTA" name="index">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ERJQAaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_ERJ3EKiREd27rM7hhsVMTA" name="value">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ERKeIKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_ERKeIaiREd27rM7hhsVMTA" name="clear" visibility="public" concurrency="concurrent"/>
+  </uml:Class>
+  <uml:Class xmi:id="_EQqH0KiREd27rM7hhsVMTA" name="Vector">
+    <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_EQqu4KiREd27rM7hhsVMTA" parameter="_EQqu4aiREd27rM7hhsVMTA">
+      <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_EQqu4aiREd27rM7hhsVMTA" parameteredElement="_EQrV8KiREd27rM7hhsVMTA">
+        <ownedParameteredElement xmi:type="uml:DataType" xmi:id="_EQrV8KiREd27rM7hhsVMTA" name="E" templateParameter="_EQqu4aiREd27rM7hhsVMTA"/>
+      </ownedParameter>
+    </ownedTemplateSignature>
+  </uml:Class>
+  <uml:Class xmi:id="_EQyqsKiREd27rM7hhsVMTA" name="Double" isLeaf="true"/>
+  <uml:Class xmi:id="_EUI5oKiREd27rM7hhsVMTA" name="HyperPlane" clientDependency="_EU2EQKiREd27rM7hhsVMTA _EU_OMaiREd27rM7hhsVMTA _EVHxEKiREd27rM7hhsVMTA _EVOewqiREd27rM7hhsVMTA _EVVMcaiREd27rM7hhsVMTA _EVb6IaiREd27rM7hhsVMTA">
+    <ownedAttribute xmi:id="_EUQ1cKiREd27rM7hhsVMTA" name="_w" visibility="private" type="_EQyqsKiREd27rM7hhsVMTA">
+      <association href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EVqjoKiREd27rM7hhsVMTA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_EURcgKiREd27rM7hhsVMTA" name="_dimension" visibility="private" isLeaf="true" isReadOnly="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_EUSDkKiREd27rM7hhsVMTA" name="_b" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_EUSqoKiREd27rM7hhsVMTA" name="norm" visibility="private" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZTwHIKiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZTwuMKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EUT4waiREd27rM7hhsVMTA" name="move" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZTwuMaiREd27rM7hhsVMTA" name="data" type="_EUVG4KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZTxVQKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_ZTxVQaiREd27rM7hhsVMTA" name="ratio">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZTx8UKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_ZTx8UaiREd27rM7hhsVMTA" name="max_2norm">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZTyjYKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EUW8EaiREd27rM7hhsVMTA" name="getDimension" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZT0YkKiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZT0YkaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EUYKMaiREd27rM7hhsVMTA" name="getDistance" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZT3b4KiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZT4C8KiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EUZYUKiREd27rM7hhsVMTA" name="set" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZT54IKiREd27rM7hhsVMTA" name="w" type="_EQyqsKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZT6fMKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_ZT6fMaiREd27rM7hhsVMTA" name="b">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZT7GQKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EUbNgKiREd27rM7hhsVMTA" name="getNormalizedPlane" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZT4C8aiREd27rM7hhsVMTA" type="_EUI5oKiREd27rM7hhsVMTA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZT4qAKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EUb0kaiREd27rM7hhsVMTA" name="getFunctionMargin" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZTzKcKiREd27rM7hhsVMTA" name="data" type="_EUVG4KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZTzKcaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_ZTzxgKiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZTzxgaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EUdpwaiREd27rM7hhsVMTA" name="getGeometricMargin" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZT0_oKiREd27rM7hhsVMTA" name="data" type="_EUVG4KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZT1msKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_ZT1msaiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZT2NwKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EUfe8KiREd27rM7hhsVMTA" name="getVector" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZT200KiREd27rM7hhsVMTA" type="_EQyqsKiREd27rM7hhsVMTA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZT200aiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EUgGAqiREd27rM7hhsVMTA" name="norm2" visibility="private" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZT5REKiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZT5REaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EUhUIaiREd27rM7hhsVMTA" name="HyperPlane" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EUh7MKiREd27rM7hhsVMTA" name="print" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_ZTvgEKiREd27rM7hhsVMTA" type="_EUiiQKiREd27rM7hhsVMTA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZTvgEaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </uml:Class>
+  <uml:Class xmi:id="_EUVG4KiREd27rM7hhsVMTA" name="TrainingData" clientDependency="_EhxF8KiREd27rM7hhsVMTA _Eh3zoaiREd27rM7hhsVMTA _Eh96QqiREd27rM7hhsVMTA">
+    <ownedAttribute xmi:id="_EhiccKiREd27rM7hhsVMTA" name="_x" visibility="private" type="_EQyqsKiREd27rM7hhsVMTA">
+      <association href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EiL8sKiREd27rM7hhsVMTA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_EhjDgKiREd27rM7hhsVMTA" name="_y" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_EhjqkKiREd27rM7hhsVMTA" name="_vector_size" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_EhkRoKiREd27rM7hhsVMTA" name="getLabel" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EhkRoaiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ehk4sKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Ehk4saiREd27rM7hhsVMTA" name="getVector" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EhlfwKiREd27rM7hhsVMTA" type="_EQyqsKiREd27rM7hhsVMTA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EhmG0KiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EhmG0aiREd27rM7hhsVMTA" name="getVectorInnerProduct" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Ehmt4KiREd27rM7hhsVMTA" name="rhs" type="_EUVG4KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EhnU8KiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EhnU8aiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ehn8AKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Ehn8AaiREd27rM7hhsVMTA" name="norm2" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EhojEKiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EhojEaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EhpKIKiREd27rM7hhsVMTA" name="norm" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EhpKIaiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EhpxMKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EhpxMaiREd27rM7hhsVMTA" name="TrainingData" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EhqYQKiREd27rM7hhsVMTA" name="x" type="_EQyqsKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ehq_UKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_Ehq_UaiREd27rM7hhsVMTA" name="y">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EhrmYKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </uml:Class>
+  <uml:Class xmi:id="_EUiiQKiREd27rM7hhsVMTA" name="String" isLeaf="true"/>
+  <uml:Class xmi:id="_EU0PEKiREd27rM7hhsVMTA" name="StringBuilder" isLeaf="true"/>
+  <uml:Class xmi:id="_EU02IKiREd27rM7hhsVMTA" name="Math" isLeaf="true"/>
+  <uml:Class xmi:id="_EV3X8KiREd27rM7hhsVMTA" name="Perceptron" clientDependency="_EWfDAKiREd27rM7hhsVMTA _EWmXwKiREd27rM7hhsVMTA _EWtFcaiREd27rM7hhsVMTA _EWzMEqiREd27rM7hhsVMTA _EW55wqiREd27rM7hhsVMTA _EXAncaiREd27rM7hhsVMTA _EXK_gqiREd27rM7hhsVMTA _EXRtMaiREd27rM7hhsVMTA _EXYa4aiREd27rM7hhsVMTA _EXfIkaiREd27rM7hhsVMTA" isAbstract="true">
+    <ownedAttribute xmi:id="_EV_TwKiREd27rM7hhsVMTA" name="_training_set" visibility="protected" isStatic="true" type="_EUVG4KiREd27rM7hhsVMTA">
+      <association href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EXpgoKiREd27rM7hhsVMTA"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_EV_60KiREd27rM7hhsVMTA" name="clear" visibility="public" isAbstract="true" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EWAh4KiREd27rM7hhsVMTA" name="addTrainingData" visibility="public" isAbstract="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_Esr8gKiREd27rM7hhsVMTA" name="data" type="_EUVG4KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EssjkKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EWCXEKiREd27rM7hhsVMTA" name="getNormMaxIndex" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_EsuYwKiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EsuYwaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EWC-IaiREd27rM7hhsVMTA" name="getMarginColor" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_Es3isKiREd27rM7hhsVMTA" name="margin">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Es4JwKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_Es4JwaiREd27rM7hhsVMTA" type="_EWEzUKiREd27rM7hhsVMTA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Es4JwqiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EWGBcKiREd27rM7hhsVMTA" name="getTrainingDataAt" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Esw1AKiREd27rM7hhsVMTA" name="pos">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EsxcEKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EsxcEaiREd27rM7hhsVMTA" type="_EUVG4KiREd27rM7hhsVMTA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EsyDIKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EWH2oKiREd27rM7hhsVMTA" name="drawDataPoint" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EsyqMKiREd27rM7hhsVMTA" name="g" type="_EWIdsKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EszRQKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EszRQaiREd27rM7hhsVMTA" name="width">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EszRQqiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_Esz4UKiREd27rM7hhsVMTA" name="height">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Esz4UaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EWK58KiREd27rM7hhsVMTA" name="getLabelMark" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_Es1tgKiREd27rM7hhsVMTA" name="label_value">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Es1tgaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_Es2UkKiREd27rM7hhsVMTA" name="margin">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Es2UkaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_Es27oKiREd27rM7hhsVMTA" type="_EUiiQKiREd27rM7hhsVMTA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Es27oaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EWNWMKiREd27rM7hhsVMTA" name="execute" visibility="public" isAbstract="true" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EWN9QKiREd27rM7hhsVMTA" name="drawBound" visibility="public" isAbstract="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_Esu_0KiREd27rM7hhsVMTA" name="g" type="_EWIdsKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Esvm4KiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_Esvm4aiREd27rM7hhsVMTA" name="w">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EswN8KiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EswN8aiREd27rM7hhsVMTA" name="h">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EswN8qiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EWQZgKiREd27rM7hhsVMTA" name="getTrainingDataNum" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Es0fYKiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Es1GcKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EWRAkaiREd27rM7hhsVMTA" name="getRound" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_EstKoKiREd27rM7hhsVMTA" name="x">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EstKoaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EstxsKiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EstxsaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EWS1waiREd27rM7hhsVMTA" name="getMargin" visibility="public" isAbstract="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_EsquYKiREd27rM7hhsVMTA" name="data" type="_EUVG4KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EsquYaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EsrVcKiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EsrVcaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </uml:Class>
+  <uml:Class xmi:id="_EV3_AKiREd27rM7hhsVMTA" name="DualPerceptron">
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EYOIYKiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EYWEMaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EYeAAaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Abstraction" href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EYpmMKiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EYwT4aiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EY3BkaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EY9vQKiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EZD14aiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EZKjkaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EZR4UaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EZYmAaiREd27rM7hhsVMTA"/>
+    <generalization xmi:id="_EXyDgKiREd27rM7hhsVMTA" general="_EV3X8KiREd27rM7hhsVMTA"/>
+    <ownedAttribute xmi:id="_EX9CoKiREd27rM7hhsVMTA" name="_dual" visibility="protected" type="_EKl8EKiREd27rM7hhsVMTA">
+      <association href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EZlaUKiREd27rM7hhsVMTA"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_EX-QwKiREd27rM7hhsVMTA" name="drawDataPoint" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_WDeCIKiREd27rM7hhsVMTA" name="g" type="_EWIdsKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WDeCIaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_WDepMKiREd27rM7hhsVMTA" name="width">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WDepMaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_WDfQQKiREd27rM7hhsVMTA" name="height">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WDfQQaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EYAtAKiREd27rM7hhsVMTA" name="drawBound" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_WDZJoKiREd27rM7hhsVMTA" name="g" type="_EWIdsKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WDZwsKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_WDZwsaiREd27rM7hhsVMTA" name="w">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WDaXwKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_WDaXwaiREd27rM7hhsVMTA" name="h">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WDa-0KiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EYDJQKiREd27rM7hhsVMTA" name="addTrainingData" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_WDbl4KiREd27rM7hhsVMTA" name="data" type="_EUVG4KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WDbl4aiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EYE-cKiREd27rM7hhsVMTA" name="execute" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EYE-caiREd27rM7hhsVMTA" name="DualPerceptron" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EYFlgKiREd27rM7hhsVMTA" name="getHyperPlane" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_WDX7gKiREd27rM7hhsVMTA" type="_EUI5oKiREd27rM7hhsVMTA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WDX7gaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EYGzoKiREd27rM7hhsVMTA" name="getMargin" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_WDcM8KiREd27rM7hhsVMTA" name="data" type="_EUVG4KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WDc0AKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_WDc0AaiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WDdbEKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EYIBwaiREd27rM7hhsVMTA" name="dual_bp" visibility="private" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EYIo0KiREd27rM7hhsVMTA" name="clear" visibility="public" concurrency="concurrent"/>
+  </uml:Class>
+  <uml:Class xmi:id="_EV4mEKiREd27rM7hhsVMTA" name="NormalPerceptron">
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EZ900KiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EaIz8aiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EaO6kaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Abstraction" href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EaVoQqiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EacV8aiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EaickaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EapKQqiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_Eav38aiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_Ea8FMaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EbDZ8aiREd27rM7hhsVMTA"/>
+    <generalization xmi:id="_EZsvEKiREd27rM7hhsVMTA" general="_EV3X8KiREd27rM7hhsVMTA"/>
+    <ownedAttribute xmi:id="_EZwZcKiREd27rM7hhsVMTA" name="_plane" visibility="private" type="_EUI5oKiREd27rM7hhsVMTA">
+      <association href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EbNK8KiREd27rM7hhsVMTA"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_EZxAgKiREd27rM7hhsVMTA" name="clear" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EZxnkKiREd27rM7hhsVMTA" name="execute" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EZyOoKiREd27rM7hhsVMTA" name="drawBound" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EZzcwKiREd27rM7hhsVMTA" name="g" type="_EWIdsKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EZzcwaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EZ0D0KiREd27rM7hhsVMTA" name="w">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EZ0D0aiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EZ0q4KiREd27rM7hhsVMTA" name="h">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EZ0q4aiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EZ1R8KiREd27rM7hhsVMTA" name="bp" visibility="private" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EZ15AKiREd27rM7hhsVMTA" name="getMargin" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EZ2gEKiREd27rM7hhsVMTA" name="data" type="_EUVG4KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EZ3HIKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EZ3HIaiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EZ3uMKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EZ3uMaiREd27rM7hhsVMTA" name="addTrainingData" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EZ4VQKiREd27rM7hhsVMTA" name="data" type="_EUVG4KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EZ4VQaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EZ48UKiREd27rM7hhsVMTA" name="NormalPerceptron" visibility="public" concurrency="concurrent"/>
+  </uml:Class>
+  <uml:Class xmi:id="_EWEzUKiREd27rM7hhsVMTA" name="Color"/>
+  <uml:Class xmi:id="_EWIdsKiREd27rM7hhsVMTA" name="Graphics" isAbstract="true"/>
+  <uml:Class xmi:id="_EWd04KiREd27rM7hhsVMTA" name="PrintStream"/>
+  <uml:Class xmi:id="_EWd04aiREd27rM7hhsVMTA" name="System" isLeaf="true"/>
+  <uml:Class xmi:id="_EbTRkKiREd27rM7hhsVMTA" name="DualKernelPerceptron">
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EbxysKiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_Eb4gYaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_Eb_OEqiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Abstraction" href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EcF7waiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EcMCYaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EcSJAaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EcbS8qiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EciAoaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EcouUaiREd27rM7hhsVMTA"/>
+    <generalization xmi:id="_EbUfsKiREd27rM7hhsVMTA" general="_EV3_AKiREd27rM7hhsVMTA"/>
+    <ownedAttribute xmi:id="_EbXjAKiREd27rM7hhsVMTA" name="_delta" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_EbYKEKiREd27rM7hhsVMTA" name="execute" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EbYxIKiREd27rM7hhsVMTA" name="getFunctionMargin" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_LnJ0QaiREd27rM7hhsVMTA" name="data" type="_EUVG4KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnKbUKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_LnKbUaiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnLCYKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EbbNYaiREd27rM7hhsVMTA" name="dual_karnel_bp" visibility="private" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_Ebb0cKiREd27rM7hhsVMTA" name="DualKernelPerceptron" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EbcbgKiREd27rM7hhsVMTA" name="decisionFunction" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_LnImIaiREd27rM7hhsVMTA" name="data" type="_EUVG4KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnJNMKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_LnJNMaiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnJ0QKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EbdpoaiREd27rM7hhsVMTA" name="getMargin" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_LnHYAKiREd27rM7hhsVMTA" name="data" type="_EUVG4KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnH_EKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_LnH_EaiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnImIKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Ebfe0aiREd27rM7hhsVMTA" name="gaussKarnel" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_LnMQgKiREd27rM7hhsVMTA" name="v" type="_EQyqsKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnMQgaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_LnM3kKiREd27rM7hhsVMTA" name="w" type="_EQyqsKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnNeoKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_LnNeoaiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnOFsKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EbjJMaiREd27rM7hhsVMTA" name="drawBound" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_LnFi0KiREd27rM7hhsVMTA" name="g" type="_EWIdsKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnGJ4KiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_LnGJ4aiREd27rM7hhsVMTA" name="w">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnGw8KiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_LnGw8aiREd27rM7hhsVMTA" name="h">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnGw8qiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </uml:Class>
+  <uml:Class xmi:id="_Ec5NAKiREd27rM7hhsVMTA" name="KernelSVM">
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EdfC4KiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EdmXoaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EdtsYqiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_Ed5SkaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EeAAQqiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EeGt8aiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Abstraction" href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EeNboaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EeTiQaiREd27rM7hhsVMTA"/>
+    <generalization xmi:id="_Ec50EKiREd27rM7hhsVMTA" general="_EbTRkKiREd27rM7hhsVMTA"/>
+    <ownedAttribute xmi:id="_EdC-AKiREd27rM7hhsVMTA" name="_c" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_EdEMIKiREd27rM7hhsVMTA" name="KKTSatisfied" visibility="private" concurrency="concurrent">
+      <ownedParameter xmi:id="_EdEMIaiREd27rM7hhsVMTA" name="index">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdEzMKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EdEzMaiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdFaQKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EdFaQaiREd27rM7hhsVMTA" name="getBias" visibility="private" concurrency="concurrent">
+      <ownedParameter xmi:id="_EdGBUKiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdGBUaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EdGoYKiREd27rM7hhsVMTA" name="getMaxSupportVectorIndex" visibility="private" concurrency="concurrent">
+      <ownedParameter xmi:id="_EdHPcKiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdHPcaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EdH2gKiREd27rM7hhsVMTA" name="getInf" visibility="private" concurrency="concurrent">
+      <ownedParameter xmi:id="_EdH2gaiREd27rM7hhsVMTA" name="i">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdIdkKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EdIdkaiREd27rM7hhsVMTA" name="j">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdJEoKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EdJEoaiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdJEoqiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EdJrsKiREd27rM7hhsVMTA" name="DifferenceFunction" visibility="private" concurrency="concurrent">
+      <ownedParameter xmi:id="_EdKSwKiREd27rM7hhsVMTA" name="i">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdKSwaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EdK50KiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdK50aiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EdK50qiREd27rM7hhsVMTA" name="kappa" visibility="private" concurrency="concurrent">
+      <ownedParameter xmi:id="_EdLg4KiREd27rM7hhsVMTA" name="i">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdMH8KiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EdMH8aiREd27rM7hhsVMTA" name="j">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdMH8qiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EdMvAKiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdMvAaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EdNWEKiREd27rM7hhsVMTA" name="getSup" visibility="private" concurrency="concurrent">
+      <ownedParameter xmi:id="_EdN9IKiREd27rM7hhsVMTA" name="i">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdN9IaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EdN9IqiREd27rM7hhsVMTA" name="j">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdOkMKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EdOkMaiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdPLQKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EdPLQaiREd27rM7hhsVMTA" name="SMO" visibility="private" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EdPyUKiREd27rM7hhsVMTA" name="applyBound" visibility="private" concurrency="concurrent">
+      <ownedParameter xmi:id="_EdQZYKiREd27rM7hhsVMTA" name="alpha">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdQZYaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EdRAcKiREd27rM7hhsVMTA" name="i">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdRAcaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EdRngKiREd27rM7hhsVMTA" name="j">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdRngaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EdSOkKiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdSOkaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EdS1oKiREd27rM7hhsVMTA" name="execute" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EdS1oaiREd27rM7hhsVMTA" name="CompareTwoTrainingData" visibility="private" concurrency="concurrent">
+      <ownedParameter xmi:id="_EdTcsKiREd27rM7hhsVMTA" name="i">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdTcsaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EdUDwKiREd27rM7hhsVMTA" name="j">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdUDwaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EdUq0KiREd27rM7hhsVMTA" name="drawBound" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EdV48KiREd27rM7hhsVMTA" name="g" type="_EWIdsKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdWgAKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EdWgAaiREd27rM7hhsVMTA" name="w">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdXHEKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EdXHEaiREd27rM7hhsVMTA" name="h">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EdXuIKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EdXuIaiREd27rM7hhsVMTA" name="KernelSVM" visibility="public" concurrency="concurrent"/>
+  </uml:Class>
+  <uml:Class xmi:id="_Eer8wKiREd27rM7hhsVMTA" name="ControlPanel">
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EfQkgKiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EfXSMqiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_Efd_4aiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Abstraction" href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EfktkaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EfrbQaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_Ef1zUaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_Ef8hAaiREd27rM7hhsVMTA"/>
+    <generalization xmi:id="_EeuZAaiREd27rM7hhsVMTA" general="_EeuZAKiREd27rM7hhsVMTA"/>
+    <ownedAttribute xmi:id="_Ee5_MKiREd27rM7hhsVMTA" name="_clear_btn" visibility="private" type="_Ee6mQKiREd27rM7hhsVMTA"/>
+    <ownedAttribute xmi:id="_Ee7NUKiREd27rM7hhsVMTA" name="_perceptron" visibility="private" type="_EV3X8KiREd27rM7hhsVMTA">
+      <association href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EgIHMKiREd27rM7hhsVMTA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ee7NUaiREd27rM7hhsVMTA" name="_negative_btn" visibility="private" type="_Ee70YKiREd27rM7hhsVMTA"/>
+    <ownedAttribute xmi:id="_Ee8bcKiREd27rM7hhsVMTA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ee8bcaiREd27rM7hhsVMTA" name="_type_cbox" visibility="private" type="_Ee9CgKiREd27rM7hhsVMTA"/>
+    <ownedAttribute xmi:id="_Ee9pkKiREd27rM7hhsVMTA" name="_positive_btn" visibility="private" type="_Ee70YKiREd27rM7hhsVMTA"/>
+    <ownedAttribute xmi:id="_Ee-QoKiREd27rM7hhsVMTA" name="_ten_step_btn" visibility="private" type="_Ee6mQKiREd27rM7hhsVMTA"/>
+    <ownedAttribute xmi:id="_Ee-QoaiREd27rM7hhsVMTA" name="_one_step_btn" visibility="private" type="_Ee6mQKiREd27rM7hhsVMTA"/>
+    <ownedAttribute xmi:id="_Ee-3sKiREd27rM7hhsVMTA" name="_graphic_window" visibility="private" isLeaf="true" type="_Ee_ewKiREd27rM7hhsVMTA" isReadOnly="true">
+      <association href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EgIuQKiREd27rM7hhsVMTA"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Ee_ewaiREd27rM7hhsVMTA" name="isSetPositive" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EfAF0KiREd27rM7hhsVMTA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EfAs4KiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EfAs4aiREd27rM7hhsVMTA" name="ControlPanel" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EfBT8KiREd27rM7hhsVMTA" name="perceptron" type="_EV3X8KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EfBT8aiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EfB7AKiREd27rM7hhsVMTA" name="graphic_window" type="_Ee_ewKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EfB7AaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EfB7AqiREd27rM7hhsVMTA" name="combo" type="_Ee9CgKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EfCiEKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EfDJIKiREd27rM7hhsVMTA" name="giveLabelName" visibility="private" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EfDJIaiREd27rM7hhsVMTA" name="setLabel" visibility="private" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EfDwMKiREd27rM7hhsVMTA" name="addButtons" visibility="private" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_EfHakKiREd27rM7hhsVMTA" name="setPerceptron" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EfIBoKiREd27rM7hhsVMTA" name="p" type="_EV3X8KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EfIBoaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </uml:Class>
+  <uml:Package xmi:id="_EetK4aiREd27rM7hhsVMTA" name="swing">
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EeuZAKiREd27rM7hhsVMTA"/>
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_Ee6mQKiREd27rM7hhsVMTA"/>
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_Ee70YKiREd27rM7hhsVMTA"/>
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_Ee9CgKiREd27rM7hhsVMTA"/>
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EfPWYKiREd27rM7hhsVMTA"/>
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EiT4gKiREd27rM7hhsVMTA"/>
+  </uml:Package>
+  <uml:Class xmi:id="_EeuZAKiREd27rM7hhsVMTA" name="JPanel"/>
+  <uml:Class xmi:id="_Ee6mQKiREd27rM7hhsVMTA" name="JButton"/>
+  <uml:Class xmi:id="_Ee70YKiREd27rM7hhsVMTA" name="JRadioButton"/>
+  <uml:Class xmi:id="_Ee9CgKiREd27rM7hhsVMTA" name="JComboBox"/>
+  <uml:Class xmi:id="_Ee_ewKiREd27rM7hhsVMTA" name="GraphicPanel">
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EgvLMKiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_Eg3uEaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Abstraction" href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_Eg-bwaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EhEiYaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EhKpAaiREd27rM7hhsVMTA"/>
+    <generalization xmi:id="_EgQqEKiREd27rM7hhsVMTA" general="_EeuZAKiREd27rM7hhsVMTA"/>
+    <ownedAttribute xmi:id="_EgcQQKiREd27rM7hhsVMTA" name="_label" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Egc3UKiREd27rM7hhsVMTA" name="_magnitude" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_EgdeYKiREd27rM7hhsVMTA" name="_perceptrion" visibility="private" type="_EV3X8KiREd27rM7hhsVMTA">
+      <association href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EhWPMKiREd27rM7hhsVMTA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_EgdeYaiREd27rM7hhsVMTA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_EgeFcKiREd27rM7hhsVMTA" name="setPerceptron" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EgesgKiREd27rM7hhsVMTA" name="p" type="_EV3X8KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EgesgaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EgfTkKiREd27rM7hhsVMTA" name="paintComponent" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EghIwKiREd27rM7hhsVMTA" name="g" type="_EWIdsKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EghIwaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Eghv0KiREd27rM7hhsVMTA" name="setMagnitude" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EgiW4KiREd27rM7hhsVMTA" name="value">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EgiW4aiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Egi98KiREd27rM7hhsVMTA" name="relative_point" visibility="private" concurrency="concurrent">
+      <ownedParameter xmi:id="_EglaMaiREd27rM7hhsVMTA" name="arg0" type="_EglaMKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EgmBQKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_EgmoUKiREd27rM7hhsVMTA" type="_EgmBQaiREd27rM7hhsVMTA" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EgmoUaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_EgnPYKiREd27rM7hhsVMTA" name="setLabel" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EgnPYaiREd27rM7hhsVMTA" name="d">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Egn2cKiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Egn2caiREd27rM7hhsVMTA" name="GraphicPanel" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_EgodgKiREd27rM7hhsVMTA" name="perceptron" type="_EV3X8KiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EgodgaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </uml:Class>
+  <uml:Class xmi:id="_EfPWYKiREd27rM7hhsVMTA" name="ButtonGroup"/>
+  <uml:Class xmi:id="_EglaMKiREd27rM7hhsVMTA" name="MouseEvent"/>
+  <uml:Class xmi:id="_EgmBQaiREd27rM7hhsVMTA" name="Point"/>
+  <uml:Class xmi:id="_EiSqYKiREd27rM7hhsVMTA" name="PerceptronTest">
+    <clientDependency xmi:type="uml:InterfaceRealization" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EioBkKiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EjBDIKiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EjHw0aiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EjOegqiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EjVMMaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EjbS0aiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Abstraction" href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EjjOoaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EjpVQaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EjwC8aiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_Ej2JkqiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_Ej83QaiREd27rM7hhsVMTA"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EkC94aiREd27rM7hhsVMTA"/>
+    <generalization xmi:id="_EiT4gaiREd27rM7hhsVMTA" general="_EiT4gKiREd27rM7hhsVMTA"/>
+    <ownedAttribute xmi:id="_EiyZoKiREd27rM7hhsVMTA" name="_type" visibility="private" type="_EUiiQKiREd27rM7hhsVMTA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EiznwaiREd27rM7hhsVMTA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EiznwKiREd27rM7hhsVMTA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_EiznwqiREd27rM7hhsVMTA" name="_perceptron" visibility="private" type="_EV3X8KiREd27rM7hhsVMTA">
+      <association href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EkOkEKiREd27rM7hhsVMTA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ei1c8KiREd27rM7hhsVMTA" name="_control_panel" visibility="private" isStatic="true" type="_Eer8wKiREd27rM7hhsVMTA">
+      <association href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EkPLIqiREd27rM7hhsVMTA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ei2EAKiREd27rM7hhsVMTA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Ei2rEKiREd27rM7hhsVMTA" name="_type_cbox" visibility="private" type="_Ee9CgKiREd27rM7hhsVMTA"/>
+    <ownedAttribute xmi:id="_Ei2rEaiREd27rM7hhsVMTA" name="_graphic_window" visibility="private" isStatic="true" type="_Ee_ewKiREd27rM7hhsVMTA">
+      <association href="platform:/resource/PerceptronTestbed/PerceptronTestbed.uml#_EkPLIKiREd27rM7hhsVMTA"/>
+    </ownedAttribute>
+    <interfaceRealization xmi:id="_EioBkKiREd27rM7hhsVMTA" supplier="_EimMYKiREd27rM7hhsVMTA" client="_EiSqYKiREd27rM7hhsVMTA" contract="_EimMYKiREd27rM7hhsVMTA"/>
+    <ownedOperation xmi:id="_Ei3SIKiREd27rM7hhsVMTA" name="PerceptronTest" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_Ei35MKiREd27rM7hhsVMTA" name="changePerceptron" visibility="private" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_Ei4gQKiREd27rM7hhsVMTA" name="actionPerformed" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Ei6VcKiREd27rM7hhsVMTA" name="arg0" type="_Ei5uYKiREd27rM7hhsVMTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ei6VcaiREd27rM7hhsVMTA" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Ei68gKiREd27rM7hhsVMTA" name="init" visibility="public" concurrency="concurrent"/>
+  </uml:Class>
+  <uml:Class xmi:id="_EiT4gKiREd27rM7hhsVMTA" name="JApplet"/>
+  <uml:Interface xmi:id="_EimMYKiREd27rM7hhsVMTA" name="ActionListener" isAbstract="true"/>
+  <uml:Class xmi:id="_Ei5uYKiREd27rM7hhsVMTA" name="ActionEvent"/>
+  <uml:Package xmi:id="_EQpgwKiREd27rM7hhsVMTA" name="util">
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EQqH0KiREd27rM7hhsVMTA"/>
+  </uml:Package>
+  <uml:Package xmi:id="_EQr9AKiREd27rM7hhsVMTA" name="lang">
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EQyqsKiREd27rM7hhsVMTA"/>
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EUiiQKiREd27rM7hhsVMTA"/>
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EU0PEKiREd27rM7hhsVMTA"/>
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EU02IKiREd27rM7hhsVMTA"/>
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EWd04aiREd27rM7hhsVMTA"/>
+  </uml:Package>
+  <uml:Package xmi:id="_EWEMQKiREd27rM7hhsVMTA" name="awt">
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EWEzUKiREd27rM7hhsVMTA"/>
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EWIdsKiREd27rM7hhsVMTA"/>
+    <packagedElement xmi:type="uml:Package" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EgkMEKiREd27rM7hhsVMTA"/>
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EgmBQaiREd27rM7hhsVMTA"/>
+  </uml:Package>
+  <uml:Package xmi:id="_EWdN0KiREd27rM7hhsVMTA" name="io">
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EWd04KiREd27rM7hhsVMTA"/>
+  </uml:Package>
+  <uml:Package xmi:id="_EgkMEKiREd27rM7hhsVMTA" name="event">
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EglaMKiREd27rM7hhsVMTA"/>
+    <packagedElement xmi:type="uml:Interface" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_EimMYKiREd27rM7hhsVMTA"/>
+    <packagedElement xmi:type="uml:Class" href="file:/D:/workspace/PerceptronTestbed/(default%20package)ClassDiagram.uml#_Ei5uYKiREd27rM7hhsVMTA"/>
+  </uml:Package>
+  <uml:Usage xmi:id="_ES_DEKiREd27rM7hhsVMTA" supplier="_EQqH0KiREd27rM7hhsVMTA" client="_EKl8EKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_ETXdkKiREd27rM7hhsVMTA" supplier="_EQyqsKiREd27rM7hhsVMTA" client="_EKl8EKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EU2EQKiREd27rM7hhsVMTA" supplier="_EUiiQKiREd27rM7hhsVMTA" client="_EUI5oKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EU_OMaiREd27rM7hhsVMTA" supplier="_EQqH0KiREd27rM7hhsVMTA" client="_EUI5oKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EVHxEKiREd27rM7hhsVMTA" supplier="_EU02IKiREd27rM7hhsVMTA" client="_EUI5oKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EVOewqiREd27rM7hhsVMTA" supplier="_EQyqsKiREd27rM7hhsVMTA" client="_EUI5oKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EVVMcaiREd27rM7hhsVMTA" supplier="_EU0PEKiREd27rM7hhsVMTA" client="_EUI5oKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EVb6IaiREd27rM7hhsVMTA" supplier="_EUVG4KiREd27rM7hhsVMTA" client="_EUI5oKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EWfDAKiREd27rM7hhsVMTA" supplier="_EU0PEKiREd27rM7hhsVMTA" client="_EV3X8KiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EWmXwKiREd27rM7hhsVMTA" supplier="_EQqH0KiREd27rM7hhsVMTA" client="_EV3X8KiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EWtFcaiREd27rM7hhsVMTA" supplier="_EU02IKiREd27rM7hhsVMTA" client="_EV3X8KiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EWzMEqiREd27rM7hhsVMTA" supplier="_EWEzUKiREd27rM7hhsVMTA" client="_EV3X8KiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EW55wqiREd27rM7hhsVMTA" supplier="_EQyqsKiREd27rM7hhsVMTA" client="_EV3X8KiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EXAncaiREd27rM7hhsVMTA" supplier="_EWd04aiREd27rM7hhsVMTA" client="_EV3X8KiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EXK_gqiREd27rM7hhsVMTA" supplier="_EWd04KiREd27rM7hhsVMTA" client="_EV3X8KiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EXRtMaiREd27rM7hhsVMTA" supplier="_EWIdsKiREd27rM7hhsVMTA" client="_EV3X8KiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EXYa4aiREd27rM7hhsVMTA" supplier="_EUVG4KiREd27rM7hhsVMTA" client="_EV3X8KiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EXfIkaiREd27rM7hhsVMTA" supplier="_EUiiQKiREd27rM7hhsVMTA" client="_EV3X8KiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EYOIYKiREd27rM7hhsVMTA" supplier="_EU0PEKiREd27rM7hhsVMTA" client="_EV3_AKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EYWEMaiREd27rM7hhsVMTA" supplier="_EQqH0KiREd27rM7hhsVMTA" client="_EV3_AKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EYeAAaiREd27rM7hhsVMTA" supplier="_EU02IKiREd27rM7hhsVMTA" client="_EV3_AKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EYwT4aiREd27rM7hhsVMTA" supplier="_EQyqsKiREd27rM7hhsVMTA" client="_EV3_AKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EY3BkaiREd27rM7hhsVMTA" supplier="_EWd04aiREd27rM7hhsVMTA" client="_EV3_AKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EY9vQKiREd27rM7hhsVMTA" supplier="_EWd04KiREd27rM7hhsVMTA" client="_EV3_AKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EZD14aiREd27rM7hhsVMTA" supplier="_EWIdsKiREd27rM7hhsVMTA" client="_EV3_AKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EZKjkaiREd27rM7hhsVMTA" supplier="_EUVG4KiREd27rM7hhsVMTA" client="_EV3_AKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EZR4UaiREd27rM7hhsVMTA" supplier="_EUI5oKiREd27rM7hhsVMTA" client="_EV3_AKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EZYmAaiREd27rM7hhsVMTA" supplier="_EKl8EKiREd27rM7hhsVMTA" client="_EV3_AKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EZ900KiREd27rM7hhsVMTA" supplier="_EU0PEKiREd27rM7hhsVMTA" client="_EV4mEKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EaIz8aiREd27rM7hhsVMTA" supplier="_EQqH0KiREd27rM7hhsVMTA" client="_EV4mEKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EaO6kaiREd27rM7hhsVMTA" supplier="_EU02IKiREd27rM7hhsVMTA" client="_EV4mEKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EacV8aiREd27rM7hhsVMTA" supplier="_EQyqsKiREd27rM7hhsVMTA" client="_EV4mEKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EaickaiREd27rM7hhsVMTA" supplier="_EWd04aiREd27rM7hhsVMTA" client="_EV4mEKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EapKQqiREd27rM7hhsVMTA" supplier="_EWd04KiREd27rM7hhsVMTA" client="_EV4mEKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_Eav38aiREd27rM7hhsVMTA" supplier="_EWIdsKiREd27rM7hhsVMTA" client="_EV4mEKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_Ea8FMaiREd27rM7hhsVMTA" supplier="_EUVG4KiREd27rM7hhsVMTA" client="_EV4mEKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EbDZ8aiREd27rM7hhsVMTA" supplier="_EUI5oKiREd27rM7hhsVMTA" client="_EV4mEKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EbxysKiREd27rM7hhsVMTA" supplier="_EQqH0KiREd27rM7hhsVMTA" client="_EbTRkKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_Eb4gYaiREd27rM7hhsVMTA" supplier="_EU02IKiREd27rM7hhsVMTA" client="_EbTRkKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_Eb_OEqiREd27rM7hhsVMTA" supplier="_EQyqsKiREd27rM7hhsVMTA" client="_EbTRkKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EcMCYaiREd27rM7hhsVMTA" supplier="_EWd04KiREd27rM7hhsVMTA" client="_EbTRkKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EcSJAaiREd27rM7hhsVMTA" supplier="_EWd04aiREd27rM7hhsVMTA" client="_EbTRkKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EcbS8qiREd27rM7hhsVMTA" supplier="_EWIdsKiREd27rM7hhsVMTA" client="_EbTRkKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EciAoaiREd27rM7hhsVMTA" supplier="_EUVG4KiREd27rM7hhsVMTA" client="_EbTRkKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EcouUaiREd27rM7hhsVMTA" supplier="_EKl8EKiREd27rM7hhsVMTA" client="_EbTRkKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EdfC4KiREd27rM7hhsVMTA" supplier="_EQqH0KiREd27rM7hhsVMTA" client="_Ec5NAKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EdmXoaiREd27rM7hhsVMTA" supplier="_EU02IKiREd27rM7hhsVMTA" client="_Ec5NAKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EdtsYqiREd27rM7hhsVMTA" supplier="_EKl8EKiREd27rM7hhsVMTA" client="_Ec5NAKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_Ed5SkaiREd27rM7hhsVMTA" supplier="_EWd04aiREd27rM7hhsVMTA" client="_Ec5NAKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EeAAQqiREd27rM7hhsVMTA" supplier="_EWd04KiREd27rM7hhsVMTA" client="_Ec5NAKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EeGt8aiREd27rM7hhsVMTA" supplier="_EUVG4KiREd27rM7hhsVMTA" client="_Ec5NAKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EeTiQaiREd27rM7hhsVMTA" supplier="_EWIdsKiREd27rM7hhsVMTA" client="_Ec5NAKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EfQkgKiREd27rM7hhsVMTA" supplier="_EV3X8KiREd27rM7hhsVMTA" client="_Eer8wKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EfXSMqiREd27rM7hhsVMTA" supplier="_Ee_ewKiREd27rM7hhsVMTA" client="_Eer8wKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_Efd_4aiREd27rM7hhsVMTA" supplier="_Ee6mQKiREd27rM7hhsVMTA" client="_Eer8wKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EfrbQaiREd27rM7hhsVMTA" supplier="_Ee70YKiREd27rM7hhsVMTA" client="_Eer8wKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_Ef1zUaiREd27rM7hhsVMTA" supplier="_EfPWYKiREd27rM7hhsVMTA" client="_Eer8wKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_Ef8hAaiREd27rM7hhsVMTA" supplier="_Ee9CgKiREd27rM7hhsVMTA" client="_Eer8wKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EgvLMKiREd27rM7hhsVMTA" supplier="_EglaMKiREd27rM7hhsVMTA" client="_Ee_ewKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_Eg3uEaiREd27rM7hhsVMTA" supplier="_EV3X8KiREd27rM7hhsVMTA" client="_Ee_ewKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EhEiYaiREd27rM7hhsVMTA" supplier="_EWIdsKiREd27rM7hhsVMTA" client="_Ee_ewKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EhKpAaiREd27rM7hhsVMTA" supplier="_EgmBQaiREd27rM7hhsVMTA" client="_Ee_ewKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EhxF8KiREd27rM7hhsVMTA" supplier="_EQqH0KiREd27rM7hhsVMTA" client="_EUVG4KiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_Eh3zoaiREd27rM7hhsVMTA" supplier="_EU02IKiREd27rM7hhsVMTA" client="_EUVG4KiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_Eh96QqiREd27rM7hhsVMTA" supplier="_EQyqsKiREd27rM7hhsVMTA" client="_EUVG4KiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EjBDIKiREd27rM7hhsVMTA" supplier="_Ee9CgKiREd27rM7hhsVMTA" client="_EiSqYKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EjHw0aiREd27rM7hhsVMTA" supplier="_EV3X8KiREd27rM7hhsVMTA" client="_EiSqYKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EjOegqiREd27rM7hhsVMTA" supplier="_EV4mEKiREd27rM7hhsVMTA" client="_EiSqYKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EjVMMaiREd27rM7hhsVMTA" supplier="_Eer8wKiREd27rM7hhsVMTA" client="_EiSqYKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EjbS0aiREd27rM7hhsVMTA" supplier="_EV3_AKiREd27rM7hhsVMTA" client="_EiSqYKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EjpVQaiREd27rM7hhsVMTA" supplier="_Ee_ewKiREd27rM7hhsVMTA" client="_EiSqYKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EjwC8aiREd27rM7hhsVMTA" supplier="_Ei5uYKiREd27rM7hhsVMTA" client="_EiSqYKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_Ej2JkqiREd27rM7hhsVMTA" supplier="_Ec5NAKiREd27rM7hhsVMTA" client="_EiSqYKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_Ej83QaiREd27rM7hhsVMTA" supplier="_EUiiQKiREd27rM7hhsVMTA" client="_EiSqYKiREd27rM7hhsVMTA"/>
+  <uml:Usage xmi:id="_EkC94aiREd27rM7hhsVMTA" supplier="_EbTRkKiREd27rM7hhsVMTA" client="_EiSqYKiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chHbAKiREd27rM7hhsVMTA" base_Element="_ES_DEKiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chHbAaiREd27rM7hhsVMTA" base_Element="_ETXdkKiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Import xmi:id="_chHbAqiREd27rM7hhsVMTA" base_Usage="_EU2EQKiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chHbA6iREd27rM7hhsVMTA" base_Element="_EU2EQKiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chHbBKiREd27rM7hhsVMTA" base_Element="_EU_OMaiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Access xmi:id="_chHbBaiREd27rM7hhsVMTA" base_Usage="_EVHxEKiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICEKiREd27rM7hhsVMTA" base_Element="_EVHxEKiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICEaiREd27rM7hhsVMTA" base_Element="_EVOewqiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICEqiREd27rM7hhsVMTA" base_Element="_EVVMcaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICE6iREd27rM7hhsVMTA" base_Element="_EVb6IaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICFKiREd27rM7hhsVMTA" base_Element="_EWfDAKiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICFaiREd27rM7hhsVMTA" base_Element="_EWmXwKiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Access xmi:id="_chICFqiREd27rM7hhsVMTA" base_Usage="_EWtFcaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICF6iREd27rM7hhsVMTA" base_Element="_EWtFcaiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Import xmi:id="_chICGKiREd27rM7hhsVMTA" base_Usage="_EWzMEqiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICGaiREd27rM7hhsVMTA" base_Element="_EWzMEqiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICGqiREd27rM7hhsVMTA" base_Element="_EW55wqiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Access xmi:id="_chICG6iREd27rM7hhsVMTA" base_Usage="_EXAncaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICHKiREd27rM7hhsVMTA" base_Element="_EXAncaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICHaiREd27rM7hhsVMTA" base_Element="_EXK_gqiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICHqiREd27rM7hhsVMTA" base_Element="_EXRtMaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICH6iREd27rM7hhsVMTA" base_Element="_EXYa4aiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Access xmi:id="_chICIKiREd27rM7hhsVMTA" base_Usage="_EXfIkaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICIaiREd27rM7hhsVMTA" base_Element="_EXfIkaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICIqiREd27rM7hhsVMTA" base_Element="_EYOIYKiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICI6iREd27rM7hhsVMTA" base_Element="_EYWEMaiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Access xmi:id="_chICJKiREd27rM7hhsVMTA" base_Usage="_EYeAAaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICJaiREd27rM7hhsVMTA" base_Element="_EYeAAaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICJqiREd27rM7hhsVMTA" base_Element="_EYwT4aiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Access xmi:id="_chICJ6iREd27rM7hhsVMTA" base_Usage="_EY3BkaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICKKiREd27rM7hhsVMTA" base_Element="_EY3BkaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICKaiREd27rM7hhsVMTA" base_Element="_EY9vQKiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICKqiREd27rM7hhsVMTA" base_Element="_EZD14aiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICK6iREd27rM7hhsVMTA" base_Element="_EZKjkaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICLKiREd27rM7hhsVMTA" base_Element="_EZR4UaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICLaiREd27rM7hhsVMTA" base_Element="_EZYmAaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICLqiREd27rM7hhsVMTA" base_Element="_EZ900KiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICL6iREd27rM7hhsVMTA" base_Element="_EaIz8aiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Access xmi:id="_chICMKiREd27rM7hhsVMTA" base_Usage="_EaO6kaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICMaiREd27rM7hhsVMTA" base_Element="_EaO6kaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICMqiREd27rM7hhsVMTA" base_Element="_EacV8aiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Access xmi:id="_chICM6iREd27rM7hhsVMTA" base_Usage="_EaickaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICNKiREd27rM7hhsVMTA" base_Element="_EaickaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICNaiREd27rM7hhsVMTA" base_Element="_EapKQqiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICNqiREd27rM7hhsVMTA" base_Element="_Eav38aiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICN6iREd27rM7hhsVMTA" base_Element="_Ea8FMaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICOKiREd27rM7hhsVMTA" base_Element="_EbDZ8aiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICOaiREd27rM7hhsVMTA" base_Element="_EbxysKiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Access xmi:id="_chICOqiREd27rM7hhsVMTA" base_Usage="_Eb4gYaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICO6iREd27rM7hhsVMTA" base_Element="_Eb4gYaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICPKiREd27rM7hhsVMTA" base_Element="_Eb_OEqiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICPaiREd27rM7hhsVMTA" base_Element="_EcMCYaiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Access xmi:id="_chICPqiREd27rM7hhsVMTA" base_Usage="_EcSJAaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICP6iREd27rM7hhsVMTA" base_Element="_EcSJAaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICQKiREd27rM7hhsVMTA" base_Element="_EcbS8qiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICQaiREd27rM7hhsVMTA" base_Element="_EciAoaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICQqiREd27rM7hhsVMTA" base_Element="_EcouUaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICQ6iREd27rM7hhsVMTA" base_Element="_EdfC4KiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Access xmi:id="_chICRKiREd27rM7hhsVMTA" base_Usage="_EdmXoaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICRaiREd27rM7hhsVMTA" base_Element="_EdmXoaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICRqiREd27rM7hhsVMTA" base_Element="_EdtsYqiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Access xmi:id="_chICR6iREd27rM7hhsVMTA" base_Usage="_Ed5SkaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICSKiREd27rM7hhsVMTA" base_Element="_Ed5SkaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICSaiREd27rM7hhsVMTA" base_Element="_EeAAQqiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICSqiREd27rM7hhsVMTA" base_Element="_EeGt8aiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Import xmi:id="_chICS6iREd27rM7hhsVMTA" base_Usage="_EeTiQaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICTKiREd27rM7hhsVMTA" base_Element="_EeTiQaiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Import xmi:id="_chICTaiREd27rM7hhsVMTA" base_Usage="_EfQkgKiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICTqiREd27rM7hhsVMTA" base_Element="_EfQkgKiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICT6iREd27rM7hhsVMTA" base_Element="_EfXSMqiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICUKiREd27rM7hhsVMTA" base_Element="_Efd_4aiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICUaiREd27rM7hhsVMTA" base_Element="_EfrbQaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICUqiREd27rM7hhsVMTA" base_Element="_Ef1zUaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICU6iREd27rM7hhsVMTA" base_Element="_Ef8hAaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICVKiREd27rM7hhsVMTA" base_Element="_EgvLMKiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICVaiREd27rM7hhsVMTA" base_Element="_Eg3uEaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICVqiREd27rM7hhsVMTA" base_Element="_EhEiYaiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Access xmi:id="_chICV6iREd27rM7hhsVMTA" base_Usage="_EhKpAaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICWKiREd27rM7hhsVMTA" base_Element="_EhKpAaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chICWaiREd27rM7hhsVMTA" base_Element="_EhxF8KiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Access xmi:id="_chIpIKiREd27rM7hhsVMTA" base_Usage="_Eh3zoaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chIpIaiREd27rM7hhsVMTA" base_Element="_Eh3zoaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chIpIqiREd27rM7hhsVMTA" base_Element="_Eh96QqiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chIpI6iREd27rM7hhsVMTA" base_Element="_EjBDIKiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Import xmi:id="_chIpJKiREd27rM7hhsVMTA" base_Usage="_EjHw0aiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chIpJaiREd27rM7hhsVMTA" base_Element="_EjHw0aiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chIpJqiREd27rM7hhsVMTA" base_Element="_EjOegqiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chIpJ6iREd27rM7hhsVMTA" base_Element="_EjVMMaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chIpKKiREd27rM7hhsVMTA" base_Element="_EjbS0aiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chIpKaiREd27rM7hhsVMTA" base_Element="_EjpVQaiREd27rM7hhsVMTA"/>
+  <Omondo_1:Omondo__Import xmi:id="_chIpKqiREd27rM7hhsVMTA" base_Usage="_EjwC8aiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chIpK6iREd27rM7hhsVMTA" base_Element="_EjwC8aiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chIpLKiREd27rM7hhsVMTA" base_Element="_Ej2JkqiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chIpLaiREd27rM7hhsVMTA" base_Element="_Ej83QaiREd27rM7hhsVMTA"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_chIpLqiREd27rM7hhsVMTA" base_Element="_EkC94aiREd27rM7hhsVMTA"/>
+  <uml:Package xmi:id="_chLFYKiREd27rM7hhsVMTA" name="MyProfiles">
+    <profileApplication xmi:id="_AtpUEKiREd27rM7hhsVMTA">
+      <eAnnotations xmi:id="_AtrJQKiREd27rM7hhsVMTA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/UML2.profile.uml#_dhEUENSUEdqN9tnr0j3PAQ"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/UML2.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_AtuzoKiREd27rM7hhsVMTA">
+      <eAnnotations xmi:id="_AtuzoaiREd27rM7hhsVMTA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Common_3.2_SN.profile.uml#_7hMtlSK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Common_3.2_SN.profile.uml#_RgfPHCK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_AtuzoqiREd27rM7hhsVMTA">
+      <eAnnotations xmi:id="_Atuzo6iREd27rM7hhsVMTA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Persistence_3.2_SN.profile.uml#_AevloCK6EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Persistence_3.2_SN.profile.uml#_RgVfdiK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_AtvasKiREd27rM7hhsVMTA">
+      <eAnnotations xmi:id="_AtvasaiREd27rM7hhsVMTA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Service_3.2_SN.profile.uml#_6VpgcCK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Service_3.2_SN.profile.uml#_RgMRQCK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_AtwBwKiREd27rM7hhsVMTA">
+      <eAnnotations xmi:id="_AtwBwaiREd27rM7hhsVMTA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Archetype.profile.uml#_f6v3QOROEduiB7qvAtFfTA"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Archetype.profile.uml#_j-cLoORNEduiB7qvAtFfTA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_AtwBwqiREd27rM7hhsVMTA">
+      <eAnnotations xmi:id="_Atwo0KiREd27rM7hhsVMTA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Java.profile.uml#_aZhLlH6MEdmbwasWWc4yvw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Java.profile.uml#_aZhLkH6MEdmbwasWWc4yvw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_Atwo0aiREd27rM7hhsVMTA">
+      <eAnnotations xmi:id="_AtxP4KiREd27rM7hhsVMTA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo.profile.uml#_zrN_1iUoEdmNXYQzyImvfA"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo.profile.uml#_zrN_0iUoEdmNXYQzyImvfA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_AtzFEKiREd27rM7hhsVMTA">
+      <eAnnotations xmi:id="_AtzFEaiREd27rM7hhsVMTA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_AtzsIKiREd27rM7hhsVMTA">
+      <eAnnotations xmi:id="_AtzsIaiREd27rM7hhsVMTA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Meta_3.2_SN.profile.uml#_7sFH4CK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Meta_3.2_SN.profile.uml#_RgVcYiK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_At0TMKiREd27rM7hhsVMTA">
+      <eAnnotations xmi:id="_At0TMaiREd27rM7hhsVMTA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Presentation_3.2_SN.profile.uml#_4Um1wCK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Presentation_3.2_SN.profile.uml#_RgVcjiK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_At06QKiREd27rM7hhsVMTA">
+      <eAnnotations xmi:id="_At06QaiREd27rM7hhsVMTA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Xml_3.2_SN.profile.uml#_7JNEVSK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Xml_3.2_SN.profile.uml#_RgVfXCK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_At06QqiREd27rM7hhsVMTA">
+      <eAnnotations xmi:id="_At1hUKiREd27rM7hhsVMTA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Meta.profile.uml#_kycnUIE4EduiecUdqhZMrw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Meta.profile.uml#_EJn30IE0EduiecUdqhZMrw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_At1hUaiREd27rM7hhsVMTA">
+      <eAnnotations xmi:id="_At2IYKiREd27rM7hhsVMTA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Process_3.2_SN.profile.uml#_7D2DMCK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Process_3.2_SN.profile.uml#_RgfOnSK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_At2IYaiREd27rM7hhsVMTA">
+      <eAnnotations xmi:id="_At2IYqiREd27rM7hhsVMTA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Webservice_3.2_SN.profile.uml#_6jgWRSK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Webservice_3.2_SN.profile.uml#_RgVmWCK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+  </uml:Package>
+</xmi:XMI>

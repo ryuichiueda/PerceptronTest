@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="(default package)ClassDiagram" foregroundRGB="255,255,255" id="{UMLID=_DBXDIKiREd27rM7hhsVMTA,JavaID=}" metadata="uml2-1.0" initialized="true" scrolledX="21" tag="1000" key="32303037303632392050657263657074726F6E546573746265642F75656461">
+  <children xsi:type="editmodel:ClassEditModel" name="DualForm" location="238,1043" size="137,232" stereotype="" id="{UMLID=_EKl8EKiREd27rM7hhsVMTA,JavaID=/DualForm}" runTimeClassModel="setBias(D),setAlpha(ID),incrementAlpha(I),clear(),getBias(),_alpha,_b,getNumOfAlpha(),addAlpha(),getAlpha(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="41,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="_alpha" id="{UMLID=_EL91EKiREd27rM7hhsVMTA,JavaID=java.lang/Double@_alpha+/DualForm@ownedEnd|java.lang/Double#_alpha}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_b" id="{UMLID=_EQzRwKiREd27rM7hhsVMTA,JavaID=/DualForm#_b}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,144">
+      <children xsi:type="editmodel:MethodEditModel" name="clear" id="{UMLID=_ERKeIaiREd27rM7hhsVMTA,JavaID=/DualForm#clear()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addAlpha" id="{UMLID=_EQ1G8KiREd27rM7hhsVMTA,JavaID=/DualForm#addAlpha()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumOfAlpha" id="{UMLID=_ERE-kKiREd27rM7hhsVMTA,JavaID=/DualForm#getNumOfAlpha()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBias" id="{UMLID=_EQ2VEKiREd27rM7hhsVMTA,JavaID=/DualForm#getBias()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAlpha" id="{UMLID=_ERFloqiREd27rM7hhsVMTA,JavaID=/DualForm#getAlpha(I)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAlpha" id="{UMLID=_ERIo8KiREd27rM7hhsVMTA,JavaID=/DualForm#setAlpha(ID)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementAlpha" id="{UMLID=_ERDwcKiREd27rM7hhsVMTA,JavaID=/DualForm#incrementAlpha(I)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setBias" id="{UMLID=_ERHa0aiREd27rM7hhsVMTA,JavaID=/DualForm#setBias(D)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="ナチュラル" methodSorter="ナチュラル" innerClassSorter="ナチュラル" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="HyperPlane" location="360,20" size="157,322" stereotype="" id="{UMLID=_EUI5oKiREd27rM7hhsVMTA,JavaID=/HyperPlane}" runTimeClassModel="HyperPlane(),_dimension,getDistance(),getDimension(),getFunctionMargin(LTrainingData;),_b,print(),_w,getVector(),getNormalizedPlane(),set(Ljava.lang.Double;D),getGeometricMargin(LTrainingData;),norm(),norm2(),move(LTrainingData;DD)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="83,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="_dimension" id="{UMLID=_EURcgKiREd27rM7hhsVMTA,JavaID=/HyperPlane#_dimension}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_w" id="{UMLID=_EUQ1cKiREd27rM7hhsVMTA,JavaID=java.lang/Double@_w+/HyperPlane@ownedEnd|java.lang/Double#_w}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_b" id="{UMLID=_EUSDkKiREd27rM7hhsVMTA,JavaID=/HyperPlane#_b}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,216">
+      <children xsi:type="editmodel:MethodEditModel" name="HyperPlane" id="{UMLID=_EUhUIaiREd27rM7hhsVMTA,JavaID=/HyperPlane#HyperPlane()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDimension" id="{UMLID=_EUW8EaiREd27rM7hhsVMTA,JavaID=/HyperPlane#getDimension()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVector" id="{UMLID=_EUfe8KiREd27rM7hhsVMTA,JavaID=/HyperPlane#getVector()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDistance" id="{UMLID=_EUYKMaiREd27rM7hhsVMTA,JavaID=/HyperPlane#getDistance()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="print" id="{UMLID=_EUh7MKiREd27rM7hhsVMTA,JavaID=/HyperPlane#print()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="move" id="{UMLID=_EUT4waiREd27rM7hhsVMTA,JavaID=/HyperPlane#move(LTrainingData;DD)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="set" id="{UMLID=_EUZYUKiREd27rM7hhsVMTA,JavaID=/HyperPlane#set(Ljava.lang.Double;D)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNormalizedPlane" id="{UMLID=_EUbNgKiREd27rM7hhsVMTA,JavaID=/HyperPlane#getNormalizedPlane()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="norm2" id="{UMLID=_EUgGAqiREd27rM7hhsVMTA,JavaID=/HyperPlane#norm2()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="norm" id="{UMLID=_EUSqoKiREd27rM7hhsVMTA,JavaID=/HyperPlane#norm()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFunctionMargin" id="{UMLID=_EUb0kaiREd27rM7hhsVMTA,JavaID=/HyperPlane#getFunctionMargin(LTrainingData;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGeometricMargin" id="{UMLID=_EUdpwaiREd27rM7hhsVMTA,JavaID=/HyperPlane#getGeometricMargin(LTrainingData;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="ナチュラル" methodSorter="ナチュラル" innerClassSorter="ナチュラル" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Perceptron" location="50,399" size="157,286" stereotype="" id="{UMLID=_EV3X8KiREd27rM7hhsVMTA,JavaID=/Perceptron}" runTimeClassModel="getTrainingDataNum(),getNormMaxIndex(),getMargin(LTrainingData;),_training_set,getLabelMark(DD),getTrainingDataAt(I),drawBound(Ljava.awt.Graphics;II),execute(),clear(),getRound(D),getMarginColor(D),addTrainingData(LTrainingData;),drawDataPoint(Ljava.awt.Graphics;II)">
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:AttributeEditModel" name="_training_set" id="{UMLID=_EV_TwKiREd27rM7hhsVMTA,JavaID=/TrainingData@_training_set+/Perceptron@ownedEnd|/TrainingData#_training_set}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,216">
+      <children xsi:type="editmodel:MethodEditModel" name="clear" id="{UMLID=_EV_60KiREd27rM7hhsVMTA,JavaID=/Perceptron#clear()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="execute" id="{UMLID=_EWNWMKiREd27rM7hhsVMTA,JavaID=/Perceptron#execute()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addTrainingData" id="{UMLID=_EWAh4KiREd27rM7hhsVMTA,JavaID=/Perceptron#addTrainingData(LTrainingData;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawBound" id="{UMLID=_EWN9QKiREd27rM7hhsVMTA,JavaID=/Perceptron#drawBound(Ljava.awt.Graphics;II)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMargin" id="{UMLID=_EWS1waiREd27rM7hhsVMTA,JavaID=/Perceptron#getMargin(LTrainingData;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawDataPoint" id="{UMLID=_EWH2oKiREd27rM7hhsVMTA,JavaID=/Perceptron#drawDataPoint(Ljava.awt.Graphics;II)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMarginColor" id="{UMLID=_EWC-IaiREd27rM7hhsVMTA,JavaID=/Perceptron#getMarginColor(D)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLabelMark" id="{UMLID=_EWK58KiREd27rM7hhsVMTA,JavaID=/Perceptron#getLabelMark(DD)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTrainingDataNum" id="{UMLID=_EWQZgKiREd27rM7hhsVMTA,JavaID=/Perceptron#getTrainingDataNum()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTrainingDataAt" id="{UMLID=_EWGBcKiREd27rM7hhsVMTA,JavaID=/Perceptron#getTrainingDataAt(I)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNormMaxIndex" id="{UMLID=_EWCXEKiREd27rM7hhsVMTA,JavaID=/Perceptron#getNormMaxIndex()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRound" id="{UMLID=_EWRAkaiREd27rM7hhsVMTA,JavaID=/Perceptron#getRound(D)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="ナチュラル" methodSorter="ナチュラル" innerClassSorter="ナチュラル" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DualPerceptron" location="454,712" size="139,232" stereotype="" id="{UMLID=_EV3_AKiREd27rM7hhsVMTA,JavaID=/DualPerceptron}" runTimeClassModel="dual_bp(),getMargin(LTrainingData;),clear(),DualPerceptron(),_dual,addTrainingData(LTrainingData;),drawBound(Ljava.awt.Graphics;II),getHyperPlane(),execute(),drawDataPoint(Ljava.awt.Graphics;II)">
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:AttributeEditModel" name="_dual" id="{UMLID=_EX9CoKiREd27rM7hhsVMTA,JavaID=/DualForm@_dual+/DualPerceptron@ownedEnd|/DualForm#_dual}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,162">
+      <children xsi:type="editmodel:MethodEditModel" name="DualPerceptron" id="{UMLID=_EYE-caiREd27rM7hhsVMTA,JavaID=/DualPerceptron#DualPerceptron()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addTrainingData" id="{UMLID=_EYDJQKiREd27rM7hhsVMTA,JavaID=/DualPerceptron#addTrainingData(LTrainingData;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="execute" id="{UMLID=_EYE-cKiREd27rM7hhsVMTA,JavaID=/DualPerceptron#execute()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clear" id="{UMLID=_EYIo0KiREd27rM7hhsVMTA,JavaID=/DualPerceptron#clear()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="dual_bp" id="{UMLID=_EYIBwaiREd27rM7hhsVMTA,JavaID=/DualPerceptron#dual_bp()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHyperPlane" id="{UMLID=_EYFlgKiREd27rM7hhsVMTA,JavaID=/DualPerceptron#getHyperPlane()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawBound" id="{UMLID=_EYAtAKiREd27rM7hhsVMTA,JavaID=/DualPerceptron#drawBound(Ljava.awt.Graphics;II)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMargin" id="{UMLID=_EYGzoKiREd27rM7hhsVMTA,JavaID=/DualPerceptron#getMargin(LTrainingData;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawDataPoint" id="{UMLID=_EX-QwKiREd27rM7hhsVMTA,JavaID=/DualPerceptron#drawDataPoint(Ljava.awt.Graphics;II)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="ナチュラル" methodSorter="ナチュラル" innerClassSorter="ナチュラル" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="NormalPerceptron" location="425,1043" size="156,173" stereotype="" id="{UMLID=_EV4mEKiREd27rM7hhsVMTA,JavaID=/NormalPerceptron}" runTimeClassModel="getMargin(LTrainingData;),bp(),clear(),addTrainingData(LTrainingData;),drawBound(Ljava.awt.Graphics;II),NormalPerceptron(),execute(),_plane">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,126"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="ナチュラル" methodSorter="ナチュラル" innerClassSorter="ナチュラル" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DualKernelPerceptron" location="257,399" size="181,209" stereotype="" id="{UMLID=_EbTRkKiREd27rM7hhsVMTA,JavaID=/DualKernelPerceptron}" runTimeClassModel="dual_karnel_bp(),getMargin(LTrainingData;),_delta,drawBound(Ljava.awt.Graphics;II),gaussKarnel(Ljava.lang.Double;Ljava.lang.Double;),getFunctionMargin(LTrainingData;),execute(),DualKernelPerceptron(),decisionFunction(LTrainingData;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="58,18"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,144"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="ナチュラル" methodSorter="ナチュラル" innerClassSorter="ナチュラル" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="KernelSVM" location="80,43" size="193,299" stereotype="" id="{UMLID=_Ec5NAKiREd27rM7hhsVMTA,JavaID=/KernelSVM}" runTimeClassModel="kappa(II),KKTSatisfied(I),applyBound(DII),drawBound(Ljava.awt.Graphics;II),getMaxSupportVectorIndex(),getInf(II),KernelSVM(),_c,execute(),SMO(),getSup(II),getBias(),DifferenceFunction(I),CompareTwoTrainingData(II)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="41,18"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="172,234"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="ナチュラル" methodSorter="ナチュラル" innerClassSorter="ナチュラル" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ControlPanel" location="50,712" size="134,281" stereotype="" id="{UMLID=_Eer8wKiREd27rM7hhsVMTA,JavaID=/ControlPanel}" runTimeClassModel="_clear_btn,giveLabelName(),setPerceptron(LPerceptron;),isSetPositive(),setLabel(),_positive_btn,_ten_step_btn,_perceptron,_negative_btn,serialVersionUID,ControlPanel(LPerceptron;LGraphicPanel;Ljavax.swing.JComboBox;),_type_cbox,_one_step_btn,addButtons(),_graphic_window">
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,126"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,108"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="ナチュラル" methodSorter="ナチュラル" innerClassSorter="ナチュラル" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GraphicPanel" location="50,1043" size="138,209" stereotype="" id="{UMLID=_Ee_ewKiREd27rM7hhsVMTA,JavaID=/GraphicPanel}" runTimeClassModel="setLabel(D),paintComponent(Ljava.awt.Graphics;),setPerceptron(LPerceptron;),_magnitude,_label,setMagnitude(I),_perceptrion,relative_point(Ljava.awt.event.MouseEvent;),serialVersionUID,GraphicPanel(LPerceptron;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,54"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,108"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="ナチュラル" methodSorter="ナチュラル" innerClassSorter="ナチュラル" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TrainingData" location="234,712" size="170,191" stereotype="" id="{UMLID=_EUVG4KiREd27rM7hhsVMTA,JavaID=/TrainingData}" runTimeClassModel="_x,_y,TrainingData(Ljava.lang.Double;D),getVector(),getVectorInnerProduct(LTrainingData;),getLabel(),_vector_size,norm(),norm2()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,36"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="149,108"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="ナチュラル" methodSorter="ナチュラル" innerClassSorter="ナチュラル" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PerceptronTest" location="50,1302" size="150,173" stereotype="" id="{UMLID=_EiSqYKiREd27rM7hhsVMTA,JavaID=/PerceptronTest}" runTimeClassModel="_type,PerceptronTest(),init(),_perceptron,actionPerformed(Ljava.awt.event.ActionEvent;),serialVersionUID,_control_panel,_type_cbox,changePerceptron(),_graphic_window">
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,54"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,72"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="ナチュラル" methodSorter="ナチュラル" innerClassSorter="ナチュラル" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="ナチュラル" methodSorter="ナチュラル" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="ナチュラル" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>
